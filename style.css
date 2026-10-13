@@ -1,0 +1,110 @@
+/* ===== whole page ===== */
+body {
+  background-color: cyan;
+  font-family: Verdana, Arial, sans-serif;
+  margin: 20px;
+}
+
+/* white box that holds everything */
+#wrapper {
+  width: 600px;
+  margin: 0 auto;          /* puts the box in the middle */
+  padding: 10px;
+  background-color: white;
+}
+
+/* ===== header ===== */
+#header {
+  background-color: paleturquoise;
+  text-align: right;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#header h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: normal;
+  color: teal;
+}
+
+#header p {
+  margin: 0;
+  font-size: 14px;
+  color: teal;
+}
+
+/* ===== friends box (left side) ===== */
+#friends {
+  float: left;
+  width: 130px;
+  padding: 10px;
+  background-color: turquoise;
+  border: 4px solid teal;
+}
+
+#friends h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: normal;
+  color: teal;
+}
+
+#friends ul {
+  font-family: "Times New Roman", serif;
+  font-size: 12px;
+  padding-left: 15px;
+}
+
+.pink {
+  color: pink;
+}
+
+.white {
+  color: white;
+  font-weight: bold;
+}
+
+/* ===== entries (right side) ===== */
+#entries {
+  float: right;
+  width: 420px;
+}
+
+.entry {
+  background-color: lightcyan;
+  border: 3px solid paleturquoise;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.entry h2 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.date {
+  color: teal;
+  border-bottom: 2px dashed blue;
+}
+
+.title {
+  color: darkturquoise;
+}
+
+.entry p {
+  font-size: 12px;
+  color: rosybrown;
+}
+
+/* pictures sit on the right of the text */
+.entry img {
+  float: right;
+  margin-left: 10px;
+}
+
+/* this stops the floats so the boxes don't break */
+.clear {
+  clear: both;
+}
